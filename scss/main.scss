@@ -21,14 +21,12 @@ h3 {
 
   &.lg-heading {
     font-size: 6rem;
-    z-index: 2;
   }
 
   &.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba($primary-color, 2), 0.5;
-    z-index: 2;
+    background: rgba(lighten($primary-color, 2), 0.5);
   }
 }
 
