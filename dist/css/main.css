@@ -100,7 +100,7 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
   body#bg-img {
-    background: url(/dist/img/mainBg1600.jpg);
+    background: url(../img/mainBg1600.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: top right; }
