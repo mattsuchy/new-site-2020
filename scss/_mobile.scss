@@ -17,7 +17,7 @@
     text-align: center;
     .lg-heading {
       line-height: 1;
-      margin-bottom: 1rem;
+      margin-bottom: 2rem;
     }
   }
   ul.menu-nav,
@@ -54,6 +54,24 @@
   }
   .projects {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  //Headings
+  h1,
+  h2,
+  h3 {
+    margin-bottom: 3rem;
+    font-weight: 400;
+
+    &.lg-heading {
+      font-size: 4rem;
+    }
+
+    &.sm-heading {
+      margin-bottom: 2rem;
+      padding: 0.2rem 1rem;
+      background: rgba(lighten($primary-color, 2), 0.5);
+    }
   }
 }
 
