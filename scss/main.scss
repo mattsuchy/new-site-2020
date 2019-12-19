@@ -6,7 +6,7 @@
 }
 body {
   @include background;
-  background: $primary-color;
+  background-color: $primary-color;
   color: set-text-color($primary-color);
   height: 100%;
   margin: 0;
@@ -69,7 +69,9 @@ main {
   grid-gap: 30px;
   grid-template-areas:
     "bioimage bio bio"
-    "job1 job2 job3";
+    "job1 job1 job4"
+    "job2 job2 job4"
+    "job3 job3 job4";
   grid-template-columns: repeat(3, 1fr);
   .bio-image {
     grid-area: bioimage;
@@ -90,10 +92,16 @@ main {
   .job-3 {
     grid-area: job3;
   }
+  .job-4 {
+    grid-area: job4;
+  }
   .job {
     background: lighten($primary-color, 5);
     padding: 0.5rem;
     border-bottom: $secondary-color 5px solid;
+    a {
+      color: #f28c00;
+    }
   }
 }
 
